@@ -1,0 +1,142 @@
+/* universal styling */
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+  /* container styling */
+ .container {
+     display: flex;
+ }
+ /* sideprofile styling */
+ .sideprofile{
+     width: 20%;
+     height: 100vh;
+     background-color: goldenrod;
+ }
+ 
+ .content{
+     width: 80%;
+     height: 100vh;
+     overflow: auto;
+ }
+ .name{
+     font-family: "Bebas Neue", sans-serif;
+     color: black;
+     font-weight: bolder;
+     text-transform: uppercase;
+     font-size: 100px;
+     margin-top: 10%;
+     padding-left: 50px;
+     
+ }
+ span{
+     color: goldenrod;
+     font-size: 140px;
+ }
+ .address{
+     text-transform: uppercase;
+     font-family: "Bebas Neue", sans-serif;
+     padding-left: 50px;
+     margin-top: -4%;
+     font-size: larger;
+ 
+ }
+ .about{
+     word-spacing: 3px;
+     font-size: large;
+     padding-left: 50px;
+     margin-top: 8%;
+ }
+ .sideprofileimage{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 20%;
+   margin-top: 40%;
+   clip-path: circle(50% at 50% 50%);
+   margin-bottom: 30px;
+ }
+ .sideprofile{
+     text-transform: uppercase;
+     text-align: center;
+ }
+ a{
+     display: block;
+     margin-bottom: 30px;
+     text-decoration: none;
+     color: black;
+     font-weight: 700;
+     font-size: larger;}
+ 
+ .line{
+     margin-top: 8%;
+     border: bottom;
+ }
+ .experience{
+     margin-top: 8%;
+     text-transform: uppercase;
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: bolder;
+     font-size: 50px;
+     padding-left: 50px;
+ }
+ .datemarch{
+     text-align: right;
+     padding: 20px;
+     color: goldenrod;
+ }
+ .senior{
+     font-family: "Bebas Neue", sans-serif;
+     padding-left: 50px;
+     font-weight: bold;
+     letter-spacing: 2px;
+ }
+ .solutions{
+     padding-left: 50px;
+ }
+ .sol{
+     padding-left: 50px;
+     margin-top: 5%; 
+     font-size: large; 
+ }
+ .image{
+     height: 4em;
+     width: 4em;
+     margin-top: 8%;
+     margin-left: 60px;
+ 
+ }
+ .sk{
+     margin-top: 8%;
+     text-transform: uppercase;
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: bolder;
+     font-size: 50px;
+     padding-left: 50px;
+     margin-bottom: 3%;
+ }
+ .solute{
+         padding-left: 50px;
+         font-size: large;
+         font-weight: bold;
+ }
+ .solutess{
+     padding-left: 50px;
+     font-size: large;
+    margin-top: 4%;
+    margin-bottom: 2%;
+ }
+ .imagess{
+     height: 1em;
+     width: 1em;
+ }
+ .solum{
+     margin-bottom: 8%;
+ }
+ 
+ a:hover{
+ color: white;
+ }
+ 
